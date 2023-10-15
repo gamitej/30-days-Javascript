@@ -1,7 +1,7 @@
-### Code
+### 30 days JS
 
-1. Vite
-2. JavaScript
-3. TailwindCss
-4. MUI
-5. Lodash
+| Day   | Project Name |
+| ----- | ------------ |
+| Day 1 | Clock        |
+| Day 2 | Drum Kit     |
+
