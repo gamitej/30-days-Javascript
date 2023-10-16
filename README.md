@@ -3,5 +3,6 @@
 | Day   | Project Name |
 | ----- | ------------ |
 | Day 1 | Clock        |
-| Day 2 | Drum Kit     |
-
+| Day 2 | Card Flip    |
+| Day 3 | Quiz App     |
+| Day 4 | Drum Kit     |
