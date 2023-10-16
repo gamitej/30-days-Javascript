@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Card Flip</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <button id="front-button">Flip</button>
+          <!-- Front content goes here -->
+        </div>
+        <div class="card-back">
+          <button id="back-button">Flip</button>
+
+          <!-- Back content goes here -->
+        </div>
+      </div>
+    </div>
+    <script>
+      // script.js
+
+      const cardInner = document.querySelector(".card-inner");
+      const frontBtn = document.getElementById("front-button");
+      const backBtn = document.getElementById("back-button");
+
+      const frontContent = "Front of the Card";
+      const backContent = "Back of the Card";
+
+      let isFlipped = false;
+
+      // Function to toggle the card flip
+      function toggleFrontFlip() {
+        cardInner.style.transform = "rotateY(180deg)";
+      }
+
+      frontBtn.addEventListener("click", toggleFrontFlip);
+      // Function to toggle the card flip
+      function toggleBAckFlip() {
+        cardInner.style.transform = "rotateY(0deg)";
+      }
+
+      backBtn.addEventListener("click", toggleBAckFlip);
+    </script>
+  </body>
+</html>
